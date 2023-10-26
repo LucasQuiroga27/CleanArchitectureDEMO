@@ -1,0 +1,25 @@
+# CASOS DE USO
+
+## LISTAR CRYPTOS GLOBALES
+
+como usuario, quiero poder consultar las cryptomonedas globales, ordenadas por capitalización de mercado.
+
+GIVEN - tengo la app iniciada
+WHEN - Accedo a la vista principal
+THEN - Veo un listado de las crypto globales
+AND - información básica de cada crypto (nombre, simbolo, precio, cambio de precio de las últimas 24h,
+volumen últimas 24h, capitalización de mercado)
+
+
+ENTITIES
+    Cryptocurrency
+        ID
+        NAME
+        SYMBOL
+        PRICE
+        PRICE24H
+        VOLUME24H
+        MARKETCAP
+
+USE CASE
+    GET GLOBAL CRYPTO LIST
