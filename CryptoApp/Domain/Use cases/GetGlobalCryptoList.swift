@@ -7,14 +7,6 @@
 
 import Foundation
 
-enum CryptocurrencyDomainError: Error {
-    case generic
-}
-
-protocol GlobalCryptoListRepositoryType {
-    func getGlobalCryptoList() async -> Result<[Cryptocurrency], CryptocurrencyDomainError>
-}
-
 class GetGlobalCryptoList {
     
     private let repository: GlobalCryptoListRepositoryType
