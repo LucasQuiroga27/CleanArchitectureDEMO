@@ -19,6 +19,7 @@
 		0DD9D7F82AEB4EB5000CBE1E /* GetGlobalCryptoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD9D7F72AEB4EB5000CBE1E /* GetGlobalCryptoList.swift */; };
 		0DD9D7FB2AEB54D6000CBE1E /* GlobalCryptoListRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD9D7FA2AEB54D6000CBE1E /* GlobalCryptoListRepositoryType.swift */; };
 		0DD9D7FD2AEB551D000CBE1E /* CryptocurrencyDomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD9D7FC2AEB551D000CBE1E /* CryptocurrencyDomainError.swift */; };
+		0DD9D8012AEB56B4000CBE1E /* CryptocurrencyRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD9D8002AEB56B4000CBE1E /* CryptocurrencyRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0DD9D7F72AEB4EB5000CBE1E /* GetGlobalCryptoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGlobalCryptoList.swift; sourceTree = "<group>"; };
 		0DD9D7FA2AEB54D6000CBE1E /* GlobalCryptoListRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalCryptoListRepositoryType.swift; sourceTree = "<group>"; };
 		0DD9D7FC2AEB551D000CBE1E /* CryptocurrencyDomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptocurrencyDomainError.swift; sourceTree = "<group>"; };
+		0DD9D8002AEB56B4000CBE1E /* CryptocurrencyRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptocurrencyRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		0D9BC8312AEB1FDD007C5E33 /* CryptoApp */ = {
 			isa = PBXGroup;
 			children = (
+				0DD9D7FE2AEB567D000CBE1E /* Data */,
 				0DD9D7F22AEB494F000CBE1E /* Domain */,
 				0D9BC8322AEB1FDD007C5E33 /* CryptoAppApp.swift */,
 				0D9BC8342AEB1FDD007C5E33 /* ContentView.swift */,
@@ -174,6 +177,22 @@
 				0DD9D7FA2AEB54D6000CBE1E /* GlobalCryptoListRepositoryType.swift */,
 			);
 			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		0DD9D7FE2AEB567D000CBE1E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0DD9D7FF2AEB5690000CBE1E /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0DD9D7FF2AEB5690000CBE1E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				0DD9D8002AEB56B4000CBE1E /* CryptocurrencyRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D9BC8352AEB1FDD007C5E33 /* ContentView.swift in Sources */,
+				0DD9D8012AEB56B4000CBE1E /* CryptocurrencyRepository.swift in Sources */,
 				0DD9D7F52AEB4972000CBE1E /* Cryptocurrency.swift in Sources */,
 				0DD9D7F82AEB4EB5000CBE1E /* GetGlobalCryptoList.swift in Sources */,
 				0DD9D7FB2AEB54D6000CBE1E /* GlobalCryptoListRepositoryType.swift in Sources */,
